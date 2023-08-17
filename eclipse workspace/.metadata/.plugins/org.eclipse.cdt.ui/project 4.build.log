@@ -1,0 +1,11 @@
+19:40:52 **** Incremental Build of configuration Debug for project project 4 ****
+make all 
+Building target: project 4.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,project 4.map -mmcu=atmega16 -o "project 4.elf"  ./application.o ./gpio.o ./icu.o ./lcd.o ./ultrasonic.o   
+avr-gcc.exe: 4.map: No such file or directory
+make: *** [project 4.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+
+19:40:54 Build Failed. 1 errors, 0 warnings. (took 1s.505ms)
+
